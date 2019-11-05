@@ -1,4 +1,4 @@
-def sort(List):
+def bubble_sort(List):
 
     for i in range(len(List) - 1):
         i = 0
@@ -10,9 +10,10 @@ def sort(List):
                 List[j] = num1
             i += 1
             j += 1
+    return List
 
 List = [6,2,1,4,5,3]
 
-sort(List)
+bubble_sort(List)
 
-print(List)
+#print(List)

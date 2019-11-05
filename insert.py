@@ -1,4 +1,4 @@
-def sort(List):
+def insertion_sort(List):
     for i in range(len(List) - 1):
         num1 = 0
         num2 = 1
@@ -14,9 +14,10 @@ def sort(List):
                     break
             else:
                 break
+    return List
 
 List = [6,2,1,4,5,3]
 
-sort(List)
+insertion_sort(List)
 
-print(List)
+#print(List)

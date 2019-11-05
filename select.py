@@ -1,4 +1,4 @@
-def sort(List):
+def selection_sort(List):
     
     num = 1
     max = List[0]
@@ -15,8 +15,9 @@ def sort(List):
         List[idx] = num2
         num += 1
         max = List[0]
+    return List
 
-def sort2(List):
+def selection_sort2(List):
     
     num = 1
     min = List[0]
@@ -39,8 +40,8 @@ def sort2(List):
 List = [6,2,1,4,5,3]
 List2 = [6,2,1,4,5,3]
 
-sort(List)
-sort2(List2)
+selection_sort(List)
+selection_sort2(List2)
 
-print(List)
-print(List2)
+#print(List)
+#print(List2)
